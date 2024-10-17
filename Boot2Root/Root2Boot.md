@@ -51,9 +51,10 @@ javascript.enabled
 12) Copied the `/etc/passwd` in my local machine & inserted a new user which has root privileges
 
 ![15](https://github.com/user-attachments/assets/5bfd05bd-eb00-469f-b1fc-7bedfc754bdc)
-![16](https://github.com/user-attachments/assets/6c29fbbe-427b-4af8-a0a0-dd5e56158f25)
-13) Then I downloaded the modified `passwd` file to the target machine and used `cp` to change the original `/etc/passwd` with the modified one.
 
+
+13) Then I downloaded the modified `passwd` file to the target machine and used `cp` to change the original `/etc/passwd` with the modified one.
+![16](https://github.com/user-attachments/assets/6c29fbbe-427b-4af8-a0a0-dd5e56158f25)
 ![17](https://github.com/user-attachments/assets/0643238a-38a3-4cca-a3b3-9c5e5f0c7b55)
 
 14) Read the `/etc/shadow` file to get the hashed password of root.
